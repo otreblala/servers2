@@ -1,1 +1,61 @@
-H
+{
+  "Version": "1.9",
+  "ReleaseNotes": "NUEVA VERSIÓN DISPONIBLE",
+  "UrlUpdate": "https://raw.githubusercontent.com/otreblala/servers2/main/Servers",
+  "Sms": "https://bitbin.it/0sOuZFZ0/raw/",
+  "EmailFeedback": "https://wa.me/+595986781764",
+  "UrlContato": "https://t.me/betothe_pro",
+  "UrlTermos": "https://vipnetbr.github.io/conectapy_site/termos.html",
+  "CheckUser": "true",
+  "FormatCheck": "yyyymmdd",
+  "Udp": [
+    {
+      "Porta": "7300"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "PARAGUAY ILIMITADO",
+      "TYPE": "premium",
+      "FLAG": "py.png",
+      "ServerIP": "13.227.125.218",
+      "CheckUser": "URL: http://191.96.224.205:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "TIGO [SERVIDOR-1]",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: dbvgf3105xjtk.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "13.227.125.218",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIGO [SERVIDOR-2]",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d142cq8yqzygu3.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "13.227.125.218",
+      "TlsIP": "13.227.125.218",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIGO [SERVIDOR-3]",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d1zxytybu1qq00.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "13.227.125.218",
+      "TlsIP": "13.227.125.218",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
